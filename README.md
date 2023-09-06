@@ -1,5 +1,5 @@
 # auto_inject BOF
-BOF to find a process to inject into. Arguments can be specified in the `.cna` to automatically inject into a different process & listener.
+Finds process from list and injects unattended. Arguments can be specified in the `.cna` to automatically inject into a different process & listener.
 - Checks if user privileges allow to open target process, if not tries the next process.
 - Uses the same inject method as the `inject` command. Modifications also apply to this inject method.. 
 
